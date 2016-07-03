@@ -5,3 +5,11 @@
 	color: #3cc51f;
 	margin: 20px auto;
 }
+
+.weui_tab {
+	position: absolute !important;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
