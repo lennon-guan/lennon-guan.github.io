@@ -13,3 +13,50 @@
 	top: 0;
 	bottom: 0;
 }
+
+.train-list {
+}
+
+.train-list li {
+	height: 56px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #efefef;
+}
+
+.train-list span {
+	position: absolute;
+	font-size: 16px;
+}
+
+.train-list .begin-station {
+	left: 5px;
+	top: 25px;
+}
+.train-list .end-station {
+	right: 150px;
+	top: 25px;
+}
+.train-list .begin-time {
+	left: 5px;
+	top: 5px;
+}
+.train-list .end-time {
+	right: 150px;
+	top: 5px;
+}
+.train-list .train-no {
+	display: inline-block;
+	left: 5px;
+	right: 150px;
+	text-align: center;
+	top: 8px;
+	font-size: 12px;
+	color: #3f3f3f;
+}
+.train-list .price {
+	right: 5px;
+	top: 14px;
+	font-size: 18px;
+	color: #6f6fcf;
+}
